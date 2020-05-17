@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { View, Text, StyleSheet, Button, TextInput } from 'react-native';
+import React from 'react';
+import { View,Text, StyleSheet, Button, TextInput, TouchableOpacity } from 'react-native';
 
 function Login ({navigation} ) {
     return (
@@ -10,11 +10,14 @@ function Login ({navigation} ) {
                 <TextInput style={styles.input}  placeholder=" Digite Seu usuario" />
                
             
-                <TextInput style={styles.input}  placeholder=" Digite Seu usuario" />
-                
-                <Button style={styles.login} title= "Login"
-                onPress= {() => navigation.navigate('Home') } 
-                />
+                <TextInput style={styles.input}  placeholder=" Digite Sua Senha" />
+
+            <TouchableOpacity  style={ styles.loginButton}   
+            onPress= {() => navigation.navigate('Home')}  >
+                <View style={styles.loginView} >
+                    <Text style={styles.loginText}> Entrar </Text>
+                </View>
+            </TouchableOpacity >
 
             </View>
         </View>
@@ -45,11 +48,28 @@ const styles = StyleSheet.create({
         margin: 9,
 
     },  
-    login: {
+    loginView: {
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#29f',
         margin: 30,
+        padding: 7,
+        height: 40,
         width:'90%',
-    }
- 
+        borderRadius: 3,
+    },
+    loginText: {
+        fontSize: 17,
+        color: '#fff'
+    },
+    loginButton: {
+        marginTop: 35,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#000',
+        width: '90%',
+        height: 2,
+    },
 
 })
 
