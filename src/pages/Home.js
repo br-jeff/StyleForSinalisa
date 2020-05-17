@@ -11,7 +11,6 @@ export default class Home extends Component {
   render() {
     return (
       <View style={styles.teste}>
-        
         <Text> Home </Text>
       </View>
     );
@@ -23,7 +22,7 @@ const styles =  StyleSheet.create ({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#000'
+    backgroundColor: '#FAFAFA'
   },
 })
  
