@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
         borderWidth: 0.3,
         borderRadius: 4,
         width: '90%',
-        margin: 9,
+        marginTop: 18,
 
     },  
     loginView: {
