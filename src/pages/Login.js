@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         width: 300,
-        height: 350,
+        height: 300,
         backgroundColor: '#fff',
         borderRadius: 10,
         elevation: 3,
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
         margin: 30,
         padding: 7,
         height: 40,
-        width:'90%',
+        width:'100%',
         borderRadius: 3,
     },
     loginText: {
@@ -68,7 +68,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         backgroundColor: '#000',
         width: '90%',
-        height: 2,
+        height: 40,
+
     },
 
 })
