@@ -3,7 +3,7 @@ import { View,Text, StyleSheet, Button, TextInput, TouchableOpacity } from 'reac
 
 function NovoRelatorio() {
 
-    return(<Text> Teste  Novo Relatorio</Text> )
+    return(<Text> Novo Ponto Eletronico </Text> )
 }
 
 export default NovoRelatorio

@@ -5,7 +5,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from './src/pages/Home/Home'
 import Login from './src/pages/Login/Login'
-import NovoRelatorio from './src/pages/NovoRelatorio/NovoRelatorio'
+import NovoPonto from './src/pages/NovoPonto/NovoPonto'
 
 
 const Stack = createStackNavigator();
@@ -16,7 +16,7 @@ function App() {
       <Stack.Navigator>
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="NovoRelatorio" component={NovoRelatorio} />
+        <Stack.Screen name="NovoPonto" component={NovoPonto} />
       </Stack.Navigator>
     </NavigationContainer>
   );
