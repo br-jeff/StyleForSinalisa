@@ -58,9 +58,8 @@ itemPostion: {
 },
 topView: {
   flexDirection: 'row',
-  justifyContent:'center',
+  justifyContent:'space-around',
   alignItems: 'center',
-  marginTop: 10,
   marginBottom: 15,
 },
 buttonText:{
