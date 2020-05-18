@@ -1,21 +1,16 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
+import ListItem from './ListItem'
 
 
-export function textTeste() {
-      return (  
-        <Text>  teste </Text>  
-      )  
-    }
-    
 
-
-function Home () { 
+function Home() { 
     return (
       <View style={styles.teste}>
         <ScrollView>
-          { textTeste()} 
+
+        <ListItem/>
 
         </ScrollView>
 
