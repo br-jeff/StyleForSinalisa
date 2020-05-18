@@ -3,19 +3,17 @@ import { View,Text, StyleSheet, Button, TextInput, TouchableOpacity } from 'reac
 
 function Login ({navigation} ) {
     return (
-        <View style={styles.container} >
-            <View style={styles.moldura} >
-
-    
-     <TextInput style={styles.input}  placeholder=" Digite Seu usuario" />
-     <TextInput style={styles.input}  placeholder=" Digite Sua Senha" />
-
-     <TouchableOpacity  style={ styles.loginButton}   
-           onPress= {() => navigation.navigate('Home')}  >
-             <View style={styles.loginView} >
-                 <Text style={styles.loginText}> Entrar </Text>
-            </View>
-      </TouchableOpacity >
+     <View style={styles.container} >
+         <View style={styles.moldura} >
+                <TextInput style={styles.input}  placeholder=" Digite Seu usuario" />
+                <TextInput style={styles.input}  placeholder=" Digite Sua Senha" />
+           
+                <TouchableOpacity  style={ styles.loginButton}   
+                    onPress= {() => navigation.navigate('Home')}  >
+                        <View style={styles.loginView} >
+                            <Text style={styles.loginText}> Entrar </Text>
+                        </View>
+                </TouchableOpacity >
 
             </View>
         </View>
