@@ -12,14 +12,14 @@ function Home({navigation}) {
                 <TouchableOpacity  style={ styles.touchBackground}   
                       onPress= {() => navigation.navigate('Home')}  >
                           <View style={styles.buttonView} >
-                              <Text style={styles.buttonText}> Entrar </Text>
+                              <Text style={styles.buttonText}> Enviar Pendências </Text>
                           </View>
                   </TouchableOpacity >
                   
                   <TouchableOpacity  style={ styles.touchBackground}   
                       onPress= {() => navigation.navigate('NovoPonto')}  >
                           <View style={styles.buttonView} >
-                              <Text style={styles.buttonText}> Bater Ponto </Text>
+                              <Text style={styles.buttonText}> Marcar Ponto </Text>
                           </View>
                   </TouchableOpacity >
 
