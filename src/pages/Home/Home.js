@@ -7,25 +7,27 @@ import ListItem from './ListItem'
 
 function Home() { 
     return (
-      <View style={styles.teste}>
-        <ScrollView>
+        <ScrollView style={styles.scrollView} 
+        contentContainerStyle={styles.itemPostion} >
 
-        <ListItem/>
-
+          <ListItem/>
+        
         </ScrollView>
-
-      </View>
     );
   }
 
 
 const styles =  StyleSheet.create ({
-  teste: {
+  scrollView: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#fff'
+    width: '100%',
+    backgroundColor: '#FCFCFC',
   },
+itemPostion: {
+  justifyContent:'center',
+  alignItems: 'center',
+  margin: 3,
+}
 })
  
 export default Home
