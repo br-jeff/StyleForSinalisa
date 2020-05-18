@@ -10,8 +10,16 @@ function Home() {
         <ScrollView style={styles.scrollView} 
         contentContainerStyle={styles.itemPostion} >
 
-          <ListItem/>
-        
+            <ListItem/>
+            <ListItem/>
+            <ListItem/>
+            <ListItem/>
+            <ListItem/>
+            <ListItem/> 
+            <ListItem/>
+            <ListItem/>
+            <ListItem/>
+
         </ScrollView>
     );
   }
