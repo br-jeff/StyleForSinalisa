@@ -6,15 +6,14 @@ function Login ({navigation} ) {
      <View style={styles.container} >
          <View style={styles.moldura} >
             <TextInput style={styles.input}  placeholder=" Digite Seu usuario" />
-            <TextInput style={styles.input}  placeholder=" Digite Sua Senha" />
-               
+                <TextInput style={styles.input}  placeholder=" Digite Sua Senha" />
+           
                 <TouchableOpacity  style={ styles.loginButton}   
                     onPress= {() => navigation.navigate('Home')}  >
                         <View style={styles.loginView} >
                             <Text style={styles.loginText}> Entrar </Text>
                         </View>
                 </TouchableOpacity >
-                
             </View>
         </View>
       );
@@ -46,7 +45,7 @@ const styles = StyleSheet.create({
     },  
     loginView: {
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'space-around',
         backgroundColor: '#29f',
         margin: 30,
         padding: 7,
@@ -61,10 +60,11 @@ const styles = StyleSheet.create({
     loginButton: {
         marginTop: 35,
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'space-around',
         backgroundColor: '#000',
         width: '90%',
         height: 40,
+        borderRadius: 3,
 
     },
 
