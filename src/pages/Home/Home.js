@@ -49,7 +49,7 @@ const styles =  StyleSheet.create ({
   scrollView: {
     flex: 1,
     width: '100%',
-    backgroundColor: '#FCFCFC',
+    backgroundColor: '#fff',
   },
 itemPostion: {
   justifyContent:'center',
@@ -61,6 +61,7 @@ topView: {
   justifyContent:'space-around',
   alignItems: 'center',
   marginBottom: 15,
+  backgroundColor:'#fff'
 },
 buttonText:{
   color:'#fff'
