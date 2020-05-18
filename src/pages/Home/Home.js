@@ -2,13 +2,23 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 
+
+export function textTeste() {
+      return (  
+        <Text>  teste </Text>  
+      )  
+    }
+    
+
+
 function Home () { 
     return (
       <View style={styles.teste}>
         <ScrollView>
-            
+          { textTeste()} 
+
         </ScrollView>
-        
+
       </View>
     );
   }
@@ -19,7 +29,7 @@ const styles =  StyleSheet.create ({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#000'
+    backgroundColor: '#fff'
   },
 })
  
