@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
         padding: 7,
         height: 40,
         width:'100%',
-        borderRadius: 3,
+        borderRadius: 20,
     },
     loginText: {
         fontSize: 17,
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#000',
         width: '90%',
         height: 40,
-        borderRadius: 3,
+        borderRadius: 20,
 
     },
 

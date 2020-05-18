@@ -74,7 +74,7 @@ buttonView: {
   padding: 7,
   height: 40,
   width:'100%',
-  borderRadius: 3,
+  borderRadius: 20,
 },
 touchBackground: {
   marginTop: 35,
@@ -83,7 +83,7 @@ touchBackground: {
   backgroundColor: '#000',
   width: '40%',
   height: 40,
-  borderRadius: 3,
+  borderRadius: 20,
 
 },
 
